@@ -1,0 +1,16 @@
+generated: '2026-10-23'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.energistics.org/RESQML/RESQML_TOPICS/RESQML-000-332-0-C-sv2010.html
+sources:
+- https://docs.energistics.org/RESQML/RESQML_TOPICS/RESQML-000-332-0-C-sv2010.html
+entries:
+- breaking: false
+  highlights:
+  - Topic Version 1 Published 09/11/2015 Topic Change History For Standard RESQML v2.0.1
+  - This section contains summary descriptions of changes per published version of the standard (schema changes).
+  - Documentation clarifications and corrections have also have been made that do not change (only clarify) how the schema is intended to work.
+  date: 2015-09-11T00:00:00Z?09/11/2015?YYYY-MM-DD??
+current_version: v2.0.1
+note: Only one entry listed on the page; date format not explicitly ISO, original shown as 09/11/2015.
+docs: https://docs.energistics.org/RESQML/RESQML_TOPICS/RESQML-000-332-0-C-sv2010.html

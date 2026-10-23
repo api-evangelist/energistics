@@ -1,0 +1,16 @@
+generated: '2026-10-23'
+method: none
+source:
+- https://zapier.com/apps/energistics/integrations
+- https://n8n.io/integrations/energistics/
+- https://composio.dev/toolkits/energistics
+- https://monid.ai/tools/energistics
+checked:
+- https://composio.dev/toolkits/energistics
+- https://monid.ai/tools/energistics
+- https://n8n.io/integrations/energistics/
+- https://zapier.com/apps/energistics/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

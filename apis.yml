@@ -1,23 +1,76 @@
 aid: energistics
+
 name: Energistics
-description: 'Energistics is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Energistics is a global, non‑profit consortium that develops, manages, and promotes data transfer standards for the energy industry. It provides standards such as WITSML, RESQML, PRODML, ETP, PWLS, and UOM to operators, service companies, technology providers, and regulatory agencies for data interoperability and integration across upstream workflows.'
+
 url: https://raw.githubusercontent.com/api-evangelist/energistics/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-23'
+
 modified: '2026-10-23'
+
 tags:
-- Company
-apis: []
+- Data Standards
+- Energy Industry
+- Oil & Gas
+- Non‑profit Consortium
+- Data Interoperability
+- Technical Standards
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: ChangeLog
+  url: changelog/energistics-changelog.yml
+- type: Authentication
+  url: authentication/energistics-authentication.yml
+- type: Hosts
+  url: hosts/energistics-hosts.yml
+- type: TermsOfService
+  url: https://energistics.org/terms-use
+- type: PrivacyPolicy
+  url: https://energistics.org/privacy-policy
+- type: Newsroom
+  url: https://energistics.org/news
+- type: GettingStarted
+  url: https://docs.energistics.org/RESQML/RESQML_TOPICS/RESQML-000-230-0-C-sv2010.html
+- type: Documentation
+  url: https://docs.energistics.org/
+- type: DomainSecurity
+  url: security/energistics-domain-security.yml
 - type: Website
   url: http://www.energistics.org
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-23'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: http://www.energistics.org
+    status: 200
+x-enrichment:
+  date: '2026-10-23'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
